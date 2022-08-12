@@ -1,0 +1,505 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("img.jpg");
+	background-size: cover;
+	background-attachment: none;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+
+#soa{
+	font-family: forte;
+	border-right: 2px solid black;
+	border-radius: 10px;
+}
+
+#saif{
+	position: absolute;
+	left: 30px;
+	color:white;
+}
+#online{
+	position: relative;
+	top: 20px;
+	color: orange;
+	left: -60px;
+}
+#acadmy{
+	position: relative;
+	color: blue;
+}
+
+header{
+	display: flex;
+	justify-content: space-around;
+	border-bottom:2PX solid gray;	
+	background-color: rgba(1,1,2,0.8);
+}
+
+header ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 12px;
+	color: white;
+}
+header ul li a{
+	font-weight: bolder;
+	text-decoration: none;
+	color: white;
+}
+#contact{
+	margin-left: 100px;
+}
+
+header ul li a:hover{
+	color:blue;
+	font-size:28px;
+	font-family:forte;
+}
+
+
+
+
+
+
+#center{
+	position: absolute;
+	top: 45%;
+	left: 40%;
+}
+#ch1{
+	color: white;
+	font-size: 50px;
+
+}
+#ch2{
+	color: orange;
+	font-size: 55px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	position: relative;
+	left: -27px;
+	font-weight: bolder;
+	border-bottom: 3px solid white;
+	border-radius: 10px;
+}
+#btn{
+	width: 220px;
+	height: 35px;
+	position: relative;
+	left: 30%;
+	color: white;
+	background-color: black;
+	border:2px solid blue;
+	border-radius: 35px;
+	top: 15px;
+}
+#btn:hover{
+	width: 225px;
+	height: 40px;
+
+}
+#btn a{
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+}
+#btn a:hover{
+	color: red;
+	font-size: 18px;
+	font-family: forte;
+}
+
+#coh{
+	border: 1px solid gray;
+	position: absolute;
+	top: 700px;
+	width: 400px;
+	height: 197px;
+	text-align: center;
+	border-radius: 70px;
+	font-size: 40px;
+	color: white;
+	left: 35%;
+	padding-top: 60px;
+	text-transform: uppercase;
+}
+span{
+	color: orange;
+}
+
+
+
+
+
+
+#courses{
+	display: flex;
+	position: absolute;
+	top: 898px;
+	height: 450px;
+	width: 100%;
+	background-color: black;	
+}
+
+.courses{
+	width:280px;
+	height:420px;
+	border:2px solid darkgray;
+	position: relative;
+	background-color: #87805E;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px 5px #173459;	
+}
+.courses:hover{
+	width: 290px;
+	height: 430px;
+	left: 220px;
+	top: 10px;
+	transition-duration: 0.4s;
+	box-shadow: 5px 5px 5px 5px #199999;
+}
+
+#program{
+	left: 58%;
+
+}
+
+#computer{
+	left: 0%;
+}
+
+.ph1{
+	text-align: center;
+	padding-top: 20px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
+	background-color: #1C0A00;
+	border-radius: 40px;
+	box-shadow: 3px 3px 3px 3px grey;
+	color:red;
+	font-family: forte;
+}
+.ul{
+	font-size: 30px;
+	color: black;
+	list-style-type: none;
+	padding: 20px;
+	font-family: Brush Script MT;
+	font-size: 20px;
+	color: lightblue;
+}
+.ul li{
+	padding: 10px;
+	border:1px solid blue;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.8);
+	margin: 3px;
+	text-align: center;
+}
+.ul li:hover{
+	background-color: black;
+	text-shadow: 1px 1px;
+	color: blue;
+	font-family: forte;
+	padding-left: 15px;
+	transition-duration: 0.27s;
+	padding: 12px;
+
+}
+
+
+
+
+#live{
+	position: absolute;
+	top: 1349px;
+	background-image: url("computer.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+}
+#lh1{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	height: 120px;
+	width: 600px;
+	background-color: black;
+	border:1px solid black;
+	margin-top: 25px;
+	padding-top: 20px;
+	margin-left: 27%;
+	border-radius: 50px;
+	opacity: 0.8;
+
+}
+#start{
+	color: red;
+}
+
+.livecourses{
+	width: 220px;
+	height:330px;
+	background-color: blue;
+	display: inline-flex;
+	background-color: white;
+	border-radius: 40px;
+	display: block;
+	text-align: center;
+	box-shadow: 20px 20px 20px 3px #002B5B;
+
+
+}
+#livechild,#upcomchild{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+
+}
+#html{
+	
+
+}
+img{
+	width: 220px;
+	height: 200px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+
+}
+#css{
+
+
+}
+#office{
+
+
+}
+#windows{
+	=
+
+}
+#live h3{
+	color: blue;
+}
+#live h4{
+	font-family: forte;
+	margin-top: 5px;
+
+}
+.livecourses:hover{
+	font-family: Arial Black;
+	width: 224px;
+	height: 334px;
+	transition-duration: .3s;
+	background-color: black;
+	color: lightblue;
+}
+
+
+
+
+#upcom{
+	position: absolute;
+	top: 1990px;
+	background-color: red;
+	width: 100%;
+	height: 650px;
+	background-image: url("upco.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#upcom h1{
+	width: 450px;
+	height: 130px;
+	margin-left: 35%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 39px;
+	background-color: rgba(0,0,22,.2);
+	border-radius: 40px;
+	color: white;
+	padding: 20px;
+
+
+}
+.upcom{
+	width: 220px;
+	height:330px;
+	display: inline-flex;
+	background-color: white;
+	border-radius: 40px;
+	display: block;
+	text-align: center;
+	box-shadow: 10px 20px 10px 3px rgba(0,0,20,.8);
+
+}
+#react,#php,#laravel,#boostrap{
+	background-color:rgba(0,0,0,.8);
+}
+.upcom h3{
+	color: orange;
+	font-size: 30px;
+	margin: 3px;
+	text-decoration: underline;
+}
+.upcom h4{
+	color: white;
+	font-family: Brush Script MT;
+	font-size: 20px;
+}
+.upcom:hover{
+	font-family: Arial Black;
+	width: 224px;
+	height: 334px;
+	transition-duration: .3s;
+	background-color: #2A0944;
+	color: lightblue;
+	box-shadow: 10px 20px 10px 3px rgba(255,255,255,.8);
+}
+.btn{
+	margin-top: 10px;
+	width: 150px;
+	height: 30px;
+	background-color: black;
+	border:1px solid white;
+	border-radius: 35px;
+	color: blue;
+}
+.btn a{
+	color: blue;
+	font-family: forte;
+	font-size: 17px;
+	text-decoration: unset;
+}
+.btn:hover{
+	width: 155px;
+	height: 35px;
+	color: white;
+	transition-duration: .2s;
+}
+.btn a:hover{
+	color: red;
+}
+
+
+
+
+
+#admission{
+	width: 100%;
+	height: 650px;
+	position: absolute;
+	top:2600PX;
+	background-image: url("register.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#admission h1{
+
+	margin-top: 10px;
+	text-align: center;
+	font-size: 39px;
+	padding: 20px;
+}
+#st{
+	color: blue;
+
+}
+#admissionchild{
+	margin-top: 20px;
+	width: 360px;
+	height: 600px;
+	background-color: rgba(0,0,51,.7);
+	margin-left: 35%;
+	border-radius: 40px;
+	box-shadow: 10px 10px 30px 10px white;
+	align-content: center;
+	color: white;
+}
+.form{
+	margin-left: 30px;
+	margin-top: 40px;
+
+	
+}
+#name,#lname,#ph,#sb{
+	width: 200px;
+	height:30px; 
+	margin-right: 20px;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,.8);
+}
+#lname{
+	margin-left: 30px;
+}
+#drop{
+	display: inline;
+
+}
+#drop h4{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+#drop select{
+	position: relative;
+	top: -62px;
+	left: 90px;
+	width: 200px;
+	height:30px; 
+	background-color: rgba(255,255,255,.8);
+	border-radius: 40px;
+	font-family: forte;
+	color: blue;
+
+}
+#drop label{
+	position: relative;
+	top: 0px;
+	margin-left: -185px;
+}
+#sb{
+	margin-top: 100px;
+	margin-left: 110px;
+	background-color: blue;
+	font-family: forte;
+	font-size: 18px;
+	color: white;
+}
+#sb:hover{
+	width: 205px;
+	height: 33px;
+	background-color: black;
+	color: red;
+	box-shadow: 1px 1px white; 
+}
+
+
+
+
+
+#about{
+	width: 300PX;
+	height: 650PX;
+	position: absolute;
+	top: 3300px;
+	text-align: center;
+	left: 35%;
+}
+#about h1{
+	font-size: 60px;
+	margin-top: 200px;
+}
+
+
+
+
+
+
